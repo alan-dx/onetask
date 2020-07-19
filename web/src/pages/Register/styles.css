@@ -1,0 +1,116 @@
+#page-registry {
+    height: 100vh;
+
+}
+
+#page-registry .content {
+    width: 100%;
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-registry .content main {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-registry .content main h1 {
+    margin-bottom: 30px;
+}
+
+#page-registry .container-registry {
+    max-width: 600px;
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-registry .container-registry header {
+    border-bottom:1px solid var(--primary-color);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+#page-registry .container-registry main {
+    flex: 1;/*Esse flex é aplicado em coluna, pois flex-direction de .container-login foi definindo como column lá em cima*/
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#page-registry .container-registry main form {
+    flex: 1;
+    height: 100%;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#page-registry .container-registry main button {/*É o Link*/
+    width: 35%;
+    max-width: 360px;
+    height: 40px;
+    background: linear-gradient(45deg, #FF776E 30%, #FF8E53 90%);
+    border-radius: 4px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#page-registry .container-registry main button:hover {
+    background: linear-gradient(45deg, #ff665c 30%, #ff8340 90%);
+}
+
+/* #page-registry .container-registry main button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+} */
+
+@media(max-width: 900px){
+    #page-registry .content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #page-registry .content main h1{
+        font-size: 20px;
+    }
+
+    #page-registry .container-registry main form {
+        flex:1;
+        height: 80%;
+        padding: 20px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

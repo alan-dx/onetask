@@ -1,0 +1,3 @@
+N ta fazendo logout quando o token expira
+
+- Fazer um único componente Input personalizável, utilizando uma condicional validada por uma informação passada via props dizendo é um input de email, task, edit, etc (assim como foi feito no DateHour_Picker)

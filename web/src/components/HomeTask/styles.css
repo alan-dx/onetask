@@ -1,0 +1,14 @@
+.home-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-add-area {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+
