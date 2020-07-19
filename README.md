@@ -3,3 +3,7 @@ OneTask é uma aplicação WEB para gerenciamento de tarefas que foi desenvolvid
 
 
 OneTask is a web application for task management that was developed using React JS (FrontEnd) and NodeJS (BackEnd), also uses MongoDB for data storage. This application was developed on a non-profit basis, its only purpose was to learn the tools used in its development.
+
+If you gonna clone this application:
+
+  - You need to create a MD5 Hash and add on server/src/config/auth.json
